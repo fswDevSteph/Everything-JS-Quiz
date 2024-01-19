@@ -2,7 +2,7 @@
 var grabStartBtn = document.getElementById('startBtn'); //creates  reference to HTML button with id 'startBtn'
 /*Timer variables*/
 var timer; //To store the interval ID
-var timeRemaining = 60; //time in seconds
+var timeRemaining = 300; //time in seconds (5min in total)
 var currentQuestionIndex = 0;
 var score = 0; // Initialize the score variable
 function handleHighScore() {
