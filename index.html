@@ -1,0 +1,74 @@
+<!-- Requirements:
+
+GIVEN I am taking a code quiz
+WHEN I click the start button -done
+THEN a timer starts and I am presented with a question -done
+WHEN I answer a question -done
+THEN I am presented with another question - done
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock -done
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over - done
+WHEN the game is over
+THEN I can save my initials and score -done
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Timed Quiz</title>
+</head>
+
+<body>
+
+
+    <main>
+
+        <h1>Take an inspirational quotes "who said" quiz </h1>
+
+        <h2>Test your knowledge and get a friendly reminder that you really can do what you set your mind to</h2>
+
+        <div class="hide"></div>
+        <div id="gameRules">
+            <p>A few rules:</p>
+            <ol>
+                <li>Click "Start!" to begin your quiz</li>
+                <li>You get a point for each correct answer</li>
+                <li>You lose 5 seconds if you click the wrong answer</li>
+                <li>Click the button to start...</li>
+            </ol>
+        </div>
+
+        <button id="startBtn">Start!</button>
+        <div id="initialBox" class="hide">
+            <h3>Save initials: </h3>
+            <input id="typeInitial" type="text" />
+            <button id="saveBtn">Save</button>
+
+        </div>
+        <div id="timerDisplay">Time:</div>
+        <div id="scoreDisplay">Score: </div>
+        <div id="finalScoreDisplay"></div>
+        <div id="quizContainer"></div>
+        <div id="resultsContainer">
+            <h2 id="highScore"></h2>
+        </div>
+    </main>
+
+
+
+
+
+</body>
+<script src="./assets/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</html>
