@@ -64,106 +64,183 @@ var questions = [
   // questions variable is an array
   {
     //has 3 main objects
-    question: 'Who said, "Believe you can and you are halfway there"?',
+    question: 'What is Node.js?',
     //correct answer name / value pair
-    correctAnswer: 'Theodore Roosevelt',
+    correctAnswer:
+      'A runtime environment for executing JavaScript code outside of a browser',
     //Answers array
     answers: [
       // made up of 3 objects.
 
-      { text: 'Albert Einstein', correct: false }, //each object has 2 properties
-      { text: 'Michael Jackson', correct: false },
-      { text: 'Theodore Roosevelt', correct: true },
+      { text: 'A programming language', correct: false }, //each object has 2 properties
+      { text: 'A database management system', correct: false },
+      {
+        text: 'A runtime environment for executing JavaScript code outside of a browser',
+        correct: true,
+      },
+      { text: 'A web browser', correct: false },
     ],
   },
   {
-    //question 2
-    question:
-      'Who is known for the quote, "The only way to do great work is to love what you do"?',
+    //!question 2
+    question: 'Which of the following is NOT a core module in Node.js?',
     //correct answer
-    correctAnswer: 'Confucius',
+    correctAnswer: 'http (HTTP)',
     //Answers array
     answers: [
-      { text: 'Steve Jobs', correct: false },
-      { text: 'Confucius', correct: true },
-      { text: 'Ellen', correct: false },
+      { text: 'fs (File System)', correct: false },
+      { text: 'http (HTTP)', correct: true },
+      { text: 'path (Path)', correct: false },
+      { text: 'db (database', correct: false },
     ],
   },
   {
-    //question 3
-    question:
-      'Which individual stated, "The future belongs to those who believe in the beauty of their dreams"?',
+    //!question 3
+    question: 'How do you install external packages in Node.js?',
     //correct answer
-    correctAnswer: 'Eleanor Roosevelt',
+    correctAnswer: 'Using the npm install command',
     //Answers array
     answers: [
-      { text: 'Eleanor Roosevelt', correct: true },
-      { text: 'Nelson Mandela', correct: false },
-      { text: 'Oprah Winfrey', correct: false },
+      { text: 'Using the npm install command', correct: true },
+      { text: 'Using the node install command', correct: false },
+      { text: 'Using the npm add command', correct: false },
+      { text: 'Using the node add command', correct: false },
     ],
   },
   {
-    //question 4
-    question: 'Who said, "In the middle of difficulty lies opportunity"?',
+    //!question 4
+    question:
+      'Which of the following is NOT a popular framework for building web applications with Node.js??',
     //correct answer
-    correctAnswer: 'Albert Einstein',
+    correctAnswer: 'Koa.js',
     //Answers array
     answers: [
-      { text: 'Albert Einstein', correct: true },
-      { text: 'Thomas Edison', correct: false },
-      { text: 'Isaac Newton', correct: false },
+      { text: 'Koa.js', correct: true },
+      { text: 'Nest.js', correct: false },
+      { text: 'React.js', correct: false },
+      { text: 'Express.js', correct: false },
     ],
   },
   {
-    //question 5
+    //!question 5
     question:
-      'Which famous figure declared, "It always seems impossible until it is done"?',
+      'What is the purpose of the package.json file in a Node.js project?',
     //correct answer
-    correctAnswer: 'Nelson Mandela',
+    correctAnswer: 'To manage project dependencies and scripts',
     //Answers array
     answers: [
-      { text: 'Martin Luther King Jr.', correct: false },
-      { text: 'Mahatma Gandhi', correct: false },
-      { text: 'Nelson Mandela', correct: true },
+      { text: "To store the project's source code", correct: false },
+      { text: "To define the project's database schema", correct: false },
+      { text: 'To manage project dependencies and scripts', correct: true },
+      { text: "To configure the project's server settings", correct: false },
     ],
   },
   {
-    //question 6
-    question:
-      'Who is credited with the quote, "The only limit to our realization of tomorrow will be our doubts of today"?',
+    //!question 6
+    question: 'What is the package manager used in Node.js?',
     //correct answer
-    correctAnswer: 'Franklin D. Roosevelt',
+    correctAnswer: 'NPM (Node Package Manager)',
     //Answers array
     answers: [
-      { text: 'Abraham Lincoln', correct: false },
-      { text: 'Franklin D. Roosevelt', correct: true },
-      { text: 'Martha Stewert', correct: false },
+      { text: 'Yarn', correct: false },
+      { text: 'NPM (Node Package Manager)', correct: true },
+      { text: 'Gulp Node', correct: false },
+      { text: 'Node Browser', correct: false },
     ],
   },
   {
-    // Question 7
-    question:
-      'Which famous figure stated, "The best way to predict the future is to create it"?',
+    //! Question 7
+    question: 'What is the purpose of the fs module in Node.js?',
     // Correct answer
-    correctAnswer: 'Peter Drucker',
+    correctAnswer: 'To handle file system operations',
     // Answers array
     answers: [
-      { text: 'Mark Zuckerberg', correct: false },
-      { text: 'Peter Drucker', correct: true },
-      { text: 'Elon Musk', correct: false },
+      { text: 'To create and manage databases', correct: false },
+      { text: 'To handle file system operations', correct: true },
+      { text: 'To handle HTTP requests and responses', correct: false },
+      { text: 'To perform mathematical calculations', correct: false },
     ],
   },
   {
-    // Question 8
-    question:
-      'Which individual is credited with the quote, "You miss 100% of the shots you don\'t take"?',
+    //! Question 8
+    question: 'What is the role of the npm command in Node.js?',
     // Correct answer
-    correctAnswer: 'Wayne Gretzky',
+    correctAnswer: 'To install and manage external packages and dependencies',
     // Answers array
     answers: [
-      { text: 'Wayne Gretzky', correct: true },
-      { text: 'Michael Jordan', correct: false },
-      { text: 'Kobe Bryant', correct: false },
+      {
+        text: 'To install and manage external packages and dependencies',
+        correct: true,
+      },
+      { text: 'To execute JavaScript code in the browser', correct: false },
+      { text: 'To create and manage databases', correct: false },
+      { text: 'To handle HTTP requests and responses', correct: false },
+    ],
+  },
+  {
+    //! Question 9
+    question: 'What is the purpose of the module.exports object in Node.js?',
+    // Correct answer
+    correctAnswer: 'To install and manage external packages and dependencies',
+    // Answers array
+    answers: [
+      {
+        text: 'To import and use external modules',
+        correct: true,
+      },
+      {
+        text: 'To export files from your source code with node',
+        correct: false,
+      },
+      { text: 'To define new functions and variables', correct: false },
+      { text: 'To handle HTTP requests and responses', correct: false },
+      {
+        text: 'To handle HTTP requests and responses',
+      },
+    ],
+  },
+  {
+    //! Question 10
+    question: 'What is the role of the  http module in Node.js?',
+    // Correct answer
+    correctAnswer: 'To install and manage external packages and dependencies',
+    // Answers array
+    answers: [
+      {
+        text: 'To handle file system operations',
+        correct: false,
+      },
+      {
+        text: 'To handle HTTP requests and responses',
+        correct: true,
+      },
+      {
+        text: 'To perform mathematical calculations in spit seconds',
+        correct: false,
+      },
+      { text: 'To create, manage and export databases', correct: false },
+    ],
+  },
+  {
+    //! Question 11
+    question: 'What is the purpose of the path module in Node.js?',
+    // Correct answer
+    correctAnswer: 'To install and manage external packages and dependencies',
+    // Answers array
+    answers: [
+      {
+        text: 'To handle file system operations',
+        correct: false,
+      },
+      {
+        text: 'To handle HTTP requests and responses',
+        correct: false,
+      },
+      {
+        text: 'To create functions and execute them with automation',
+        correct: false,
+      },
+      { text: 'To manipulate file paths', correct: false },
     ],
   },
 ];
