@@ -223,6 +223,7 @@ var questions = [
   },
   {
     //! Question 11
+    //?EDIT THIS QUESTION
     question: 'What is the purpose of the path module in Node.js?',
     // Correct answer
     correctAnswer: 'To install and manage external packages and dependencies',
@@ -241,6 +242,32 @@ var questions = [
         correct: false,
       },
       { text: 'To manipulate file paths', correct: false },
+    ],
+  },
+  {
+    //! Question 12
+    question:
+      'Which of the following statements about arrow functions is NOT true?',
+    // Correct answer
+    correctAnswer: 'To install and manage external packages and dependencies',
+    // Answers array
+    answers: [
+      {
+        text: 'Arrow functions can be used as constructors',
+        correct: true,
+      },
+      {
+        text: 'Arrow functions are always anonymous',
+        correct: false,
+      },
+      {
+        text: 'Arrow functions do not have their own this value',
+        correct: false,
+      },
+      {
+        text: 'Arrow functions cannot be used as methods in objects',
+        correct: false,
+      },
     ],
   },
 ];
