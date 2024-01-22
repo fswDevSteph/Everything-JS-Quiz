@@ -309,7 +309,7 @@ var questions = [
         correct: false,
       },
       {
-        text: 'Arrow functions have their own this value.',
+        text: 'Arrow functions do not have their own this value.',
         correct: true,
       },
       {
