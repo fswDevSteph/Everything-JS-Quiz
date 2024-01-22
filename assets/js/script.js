@@ -296,6 +296,32 @@ var questions = [
       },
     ],
   },
+  {
+    //! Question 14
+    question:
+      'Which of the following statements about arrow functions is true?',
+    // Correct answer
+    correctAnswer: 'param => { }',
+    // Answers array
+    answers: [
+      {
+        text: 'Arrow functions can be used with the new keyword.',
+        correct: false,
+      },
+      {
+        text: 'Arrow functions have their own this value.',
+        correct: true,
+      },
+      {
+        text: 'Arrow functions can be used with the bind() method.',
+        correct: false,
+      },
+      {
+        text: 'Arrow functions can be used with the apply() method.',
+        correct: false,
+      },
+    ],
+  },
 ];
 //reference to the score element
 var scoreDisplay = document.getElementById('scoreDisplay');
