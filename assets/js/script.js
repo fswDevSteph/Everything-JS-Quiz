@@ -324,10 +324,9 @@ var questions = [
   },
   {
     //! Question 15
-    question: 'Event handlers',
+    question: 'Which of the following is a valid use case for arrow functions?',
     // Correct answer
-    correctAnswer:
-      'Which of the following is a valid use case for arrow functions?',
+    correctAnswer: 'Event handlers',
     // Answers array
     answers: [
       {
