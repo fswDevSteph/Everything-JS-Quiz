@@ -9,6 +9,7 @@
 body {
     background: linear-gradient(109.8deg, rgb(62, 5, 116) -5.2%, rgb(41, 14, 151) -5.2%, rgb(216, 68, 148) 103.3%);
     color: var(--seaSaltWhite);
+    margin: 2rem;
 }
 
 main {
@@ -17,7 +18,7 @@ main {
     align-items: center;
     flex-direction: column;
     font: var(--seaSaltWhite);
-    margin-top: 40vh;
+    margin-top: 20vh;
 }
 
 #gameRules {
@@ -49,4 +50,9 @@ main h2 {
 
 #startBtn {
     margin-top: 3rem;
+}
+
+.bottomSpace {
+    margin-bottom: 2.5rem;
+
 }
