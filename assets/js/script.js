@@ -270,6 +270,32 @@ var questions = [
       },
     ],
   },
+  {
+    //! Question 13
+    question:
+      'What is the correct syntax for defining an arrow function with a single parameter?',
+    // Correct answer
+    correctAnswer: 'param => { }',
+    // Answers array
+    answers: [
+      {
+        text: '(param) => { }',
+        correct: false,
+      },
+      {
+        text: '(param) => param',
+        correct: false,
+      },
+      {
+        text: 'param => param',
+        correct: false,
+      },
+      {
+        text: 'param => { }',
+        correct: true,
+      },
+    ],
+  },
 ];
 //reference to the score element
 var scoreDisplay = document.getElementById('scoreDisplay');
