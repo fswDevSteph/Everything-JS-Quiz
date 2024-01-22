@@ -322,6 +322,32 @@ var questions = [
       },
     ],
   },
+  {
+    //! Question 15
+    question: 'Event handlers',
+    // Correct answer
+    correctAnswer:
+      'Which of the following is a valid use case for arrow functions?',
+    // Answers array
+    answers: [
+      {
+        text: 'Event handlers',
+        correct: true,
+      },
+      {
+        text: 'Constructors',
+        correct: false,
+      },
+      {
+        text: 'Prototype methods',
+        correct: false,
+      },
+      {
+        text: 'Recursive functions',
+        correct: false,
+      },
+    ],
+  },
 ];
 //reference to the score element
 var scoreDisplay = document.getElementById('scoreDisplay');
