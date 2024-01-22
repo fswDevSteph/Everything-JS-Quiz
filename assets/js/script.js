@@ -347,6 +347,32 @@ var questions = [
       },
     ],
   },
+  {
+    //! Question 16
+    question:
+      'Which of the following is the correct syntax for returning an object literal from an arrow function?',
+    // Correct answer
+    correctAnswer: 'Event handlers',
+    // Answers array
+    answers: [
+      {
+        text: '() => { key: value; }',
+        correct: false,
+      },
+      {
+        text: '() => { return { key: value }; }',
+        correct: true,
+      },
+      {
+        text: ' () => { { key: value }; }',
+        correct: false,
+      },
+      {
+        text: '() => { { key: value } }',
+        correct: false,
+      },
+    ],
+  },
 ];
 //reference to the score element
 var scoreDisplay = document.getElementById('scoreDisplay');
